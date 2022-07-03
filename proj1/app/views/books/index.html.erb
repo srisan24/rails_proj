@@ -1,0 +1,8 @@
+<%= current_user %>
+
+<% @books.each do |b| %>
+  <p> <%= b.name %> </p>
+  <p> <%= b.description %> </p>
+  <p> <%= b.sku %> </p>
+  <p> <%= b.created_at %> </p>
+<% end %>

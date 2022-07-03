@@ -1,0 +1,689 @@
+[ N 2022-06-18 15:48:13.6098 52368/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-18 15:48:13.6313 52371/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-18 15:48:13.6314 52371/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-18 15:48:13.6938 52371/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 52371
+[ N 2022-06-18 15:48:16.6016 52371/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 52450 output: 
+App 52450 output: [1, 9] in /home/sriram/rails_app/proj1/app/controllers/books_controller.rb
+App 52450 output:    1: class BooksController < ApplicationController
+App 52450 output:    2: 
+App 52450 output:    3:   def index
+App 52450 output:    4:     @books = Book.all
+App 52450 output:    5:     byebug
+App 52450 output: => 6:     console
+App 52450 output:    7: 	end
+App 52450 output:    8: 
+App 52450 output:    9: end
+App 52450 output: (byebug) 
+
+[ N 2022-06-18 15:48:41.5781 52371/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-18 15:48:41.5781 52371/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-18 15:48:41.5782 52371/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 52450, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-18 15:48:41.5782 52371/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-18 15:48:41.5782 52371/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-18 15:48:41.5782 52371/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-18 15:48:41.5782 52371/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-18 15:48:41.5782 52371/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-18 15:48:41.5783 52371/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-18 15:48:41.5783 52371/Tg Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-18 15:48:41.5783 52371/Tg Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-18 15:49:00.5189 52692/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-18 15:49:00.5315 52695/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-18 15:49:00.5316 52695/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-18 15:49:00.5382 52695/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 52695
+[ N 2022-06-18 15:49:03.3980 52695/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[ W 2022-06-18 15:49:11.5803 52534/T1 age/Wat/WatchdogMain.cpp:537 ]: Some Phusion Passenger(R) agent processes did not exit in time, forcefully shutting down all.
+[ N 2022-06-18 15:54:16.8074 52695/T3 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 52863, application /home/sriram/rails_app/proj1 (development)
+
+[ N 2022-06-18 16:01:43.8934 52695/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-18 16:01:43.8935 52695/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-18 16:01:43.8936 52695/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 52789, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-18 16:01:43.8936 52695/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-18 16:01:43.8937 52695/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-18 16:01:43.8937 52695/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-18 16:01:43.8937 52695/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-18 16:01:43.8937 52695/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-18 16:01:43.8938 52695/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-18 16:01:43.8938 52695/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-18 16:01:43.8938 52695/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-18 16:01:43.8939 52695/Tg Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-18 16:01:43.8940 52695/Tg Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-18 16:01:43.8945 52695/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 52789, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-18 16:01:45.0072 52695/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+2022/06/18 16:06:44 [emerg] 73072#0: bind() to 127.0.0.1:3000 failed (98: Address already in use)
+2022/06/18 16:06:44 [emerg] 73072#0: bind() to 127.0.0.1:3000 failed (98: Address already in use)
+2022/06/18 16:06:44 [emerg] 73072#0: bind() to 127.0.0.1:3000 failed (98: Address already in use)
+2022/06/18 16:06:44 [emerg] 73072#0: bind() to 127.0.0.1:3000 failed (98: Address already in use)
+2022/06/18 16:06:44 [emerg] 73072#0: bind() to 127.0.0.1:3000 failed (98: Address already in use)
+2022/06/18 16:06:44 [emerg] 73072#0: still could not bind()
+[ N 2022-06-19 13:14:36.6675 12673/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-19 13:14:36.6805 12676/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-19 13:14:36.6806 12676/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-19 13:14:36.6880 12676/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 12676
+[ N 2022-06-19 13:14:39.7063 12676/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-06-19 13:44:18.9025 12676/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-19 13:44:18.9026 12676/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-19 13:44:18.9026 12676/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 12762, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-19 13:44:18.9027 12676/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-19 13:44:18.9027 12676/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-19 13:44:18.9028 12676/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-19 13:44:18.9028 12676/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-19 13:44:18.9028 12676/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-19 13:44:18.9028 12676/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-19 13:44:18.9030 12676/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-19 13:44:18.9031 12676/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-19 13:44:18.9039 12676/Tg Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-19 13:44:18.9040 12676/Tg Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-19 13:44:18.9040 12676/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 12762, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-19 13:44:20.0859 12676/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-19 13:58:29.9750 17314/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-19 13:58:29.9878 17317/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-19 13:58:29.9879 17317/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-19 13:58:29.9948 17317/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 17317
+[ N 2022-06-19 13:58:32.9216 17317/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-06-19 14:00:06.5362 17317/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-19 14:00:06.5363 17317/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-19 14:00:06.5363 17317/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 17404, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-19 14:00:06.5364 17317/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 17588, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-19 14:00:06.5364 17317/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-19 14:00:06.5365 17317/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-19 14:00:06.5365 17317/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-19 14:00:06.5365 17317/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-19 14:00:06.5366 17317/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-19 14:00:06.5366 17317/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-19 14:00:06.5367 17317/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-19 14:00:06.5368 17317/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-19 14:00:06.5370 17317/Tg Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-19 14:00:06.5370 17317/Tg Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-19 14:00:06.5374 17317/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 17404, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-19 14:00:06.5375 17317/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 17588, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-19 14:00:07.8011 17317/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-23 22:47:44.6180 108216/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-23 22:47:44.6364 108219/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-23 22:47:44.6366 108219/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-23 22:47:44.6891 108219/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 108219
+[ N 2022-06-23 22:47:47.6908 108219/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 108278 output: WARNING: Use strings for Figaro configuration. 0 was converted to "0".
+App 108278 output: WARNING: Use strings for Figaro configuration. 6379 was converted to "6379".
+
+[ N 2022-06-23 22:51:37.4338 108219/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-23 22:51:37.4339 108219/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-23 22:51:37.4339 108219/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 108318, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-23 22:51:37.4343 108219/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4343 108219/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4343 108219/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4343 108219/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4343 108219/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4343 108219/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4344 108219/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4343 108219/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4343 108219/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4343 108219/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-23 22:51:37.4343 108219/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4344 108219/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-23 22:51:37.4344 108219/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4345 108219/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-23 22:51:37.4345 108219/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-23 22:51:37.4345 108219/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-23 22:51:37.4345 108219/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-23 22:51:37.4345 108219/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-23 22:51:37.4343 108219/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-23 22:51:37.4343 108219/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-23 22:51:37.4346 108219/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-23 22:51:37.4343 108219/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4344 108219/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-23 22:51:37.4347 108219/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-23 22:51:37.4348 108219/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-23 22:51:37.4348 108219/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-23 22:51:37.4353 108219/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 108318, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-23 22:51:38.8207 108219/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-23 22:51:40.4755 109019/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-23 22:51:40.5036 109022/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-23 22:51:40.5039 109022/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-23 22:51:40.5702 109022/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 109022
+[ N 2022-06-23 22:51:43.4984 109022/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 109080 output: WARNING: Use strings for Figaro configuration. 0 was converted to "0".
+App 109080 output: WARNING: Use strings for Figaro configuration. 6379 was converted to "6379".
+[ N 2022-06-23 22:57:21.9499 109022/T4 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 109302, application /home/sriram/rails_app/proj1 (development)
+[ W 2022-06-23 23:00:45.6430 109022/Ts age/Cor/Con/InternalUtils.cpp:96 ]: [Client 11-3] Sending 502 response: application did not send a complete response
+App 109120 output: [ 2022-06-23 23:00:45.6430 109120/0x000055f8486199f0(Worker 1) utils.rb ]: *** Exception NotImplementedError (fetch_snapshots is not implemented) (process 109120, thread 0x000055f8486199f0(Worker 1)):
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/rack-mini-profiler-2.3.3/lib/mini_profiler/storage/abstract_store.rb:53:in `fetch_snapshots'
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/rack-mini-profiler-2.3.3/lib/mini_profiler/storage/abstract_store.rb:58:in `snapshot_groups_overview'
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/rack-mini-profiler-2.3.3/lib/mini_profiler/profiler.rb:814:in `handle_snapshots_request'
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/rack-mini-profiler-2.3.3/lib/mini_profiler/profiler.rb:184:in `serve_html'
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/rack-mini-profiler-2.3.3/lib/mini_profiler/profiler.rb:254:in `call'
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/webpacker-5.4.3/lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/rack-proxy-0.7.2/lib/rack/proxy.rb:67:in `call'
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/railties-6.1.4.4/lib/rails/engine.rb:539:in `call'
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/passenger-6.0.14/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:107:in `process_request'
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/passenger-6.0.14/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/passenger-6.0.14/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/passenger-6.0.14/src/ruby_supportlib/phusion_passenger/request_handler.rb:419:in `block (3 levels) in start_threads'
+App 109120 output: 	from /usr/local/rvm/gems/ruby-2.6.3/gems/passenger-6.0.14/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+[ W 2022-06-23 23:00:50.0321 109022/T3 age/Cor/App/Poo/AnalyticsCollection.cpp:101 ]: Process (pid=109120, group=/home/sriram/rails_app/proj1 (development)) no longer exists! Detaching it from the pool.
+[ N 2022-06-23 23:00:50.0322 109022/T3 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 109120, application /home/sriram/rails_app/proj1 (development)
+App 110504 output: WARNING: Use strings for Figaro configuration. 0 was converted to "0".
+App 110504 output: WARNING: Use strings for Figaro configuration. 6379 was converted to "6379".
+2022/06/25 00:12:15 [emerg] 37062#0: bind() to 127.0.0.1:3000 failed (98: Address already in use)
+2022/06/25 00:12:15 [emerg] 37062#0: bind() to 127.0.0.1:3000 failed (98: Address already in use)
+2022/06/25 00:12:15 [emerg] 37062#0: bind() to 127.0.0.1:3000 failed (98: Address already in use)
+2022/06/25 00:12:15 [emerg] 37062#0: bind() to 127.0.0.1:3000 failed (98: Address already in use)
+2022/06/25 00:12:15 [emerg] 37062#0: bind() to 127.0.0.1:3000 failed (98: Address already in use)
+2022/06/25 00:12:15 [emerg] 37062#0: still could not bind()
+[ N 2022-06-25 00:13:13.6384 37362/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-25 00:13:13.6598 37365/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-25 00:13:13.6607 37365/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-25 00:13:13.7007 37365/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 37365
+[ N 2022-06-25 00:13:16.8054 37365/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-06-25 00:24:37.5099 37365/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-25 00:24:37.5100 37365/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-25 00:24:37.5101 37365/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 37463, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 00:24:37.5104 37365/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5104 37365/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5105 37365/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-25 00:24:37.5105 37365/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5105 37365/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5105 37365/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5105 37365/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5105 37365/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5105 37365/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-25 00:24:37.5107 37365/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-25 00:24:37.5106 37365/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5106 37365/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-25 00:24:37.5107 37365/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-25 00:24:37.5107 37365/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5107 37365/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-25 00:24:37.5107 37365/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-25 00:24:37.5108 37365/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-25 00:24:37.5108 37365/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-25 00:24:37.5108 37365/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5108 37365/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-25 00:24:37.5108 37365/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5109 37365/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5109 37365/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-25 00:24:37.5109 37365/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-25 00:24:37.5110 37365/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-25 00:24:37.5110 37365/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-25 00:24:37.5114 37365/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 37463, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 00:24:38.9241 37365/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-25 00:27:50.3792 40079/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-25 00:27:50.4057 40082/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-25 00:27:50.4060 40082/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-25 00:27:50.4879 40082/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 40082
+[ N 2022-06-25 00:27:53.4545 40082/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[ N 2022-06-25 00:36:30.6230 40082/T4 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 40625, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 00:36:30.6556 40082/T4 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 40195, application /home/sriram/rails_app/proj1 (development)
+
+[ N 2022-06-25 00:41:10.8087 40082/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-25 00:41:10.8088 40082/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-25 00:41:10.8089 40082/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 40841, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 00:41:10.8091 40082/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 42011, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 00:41:10.8093 40082/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8093 40082/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8093 40082/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8093 40082/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8094 40082/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8094 40082/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-25 00:41:10.8095 40082/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-25 00:41:10.8095 40082/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-25 00:41:10.8093 40082/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8095 40082/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8093 40082/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8096 40082/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-25 00:41:10.8096 40082/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-25 00:41:10.8096 40082/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8096 40082/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-25 00:41:10.8095 40082/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-25 00:41:10.8096 40082/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-25 00:41:10.8096 40082/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-25 00:41:10.8094 40082/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8096 40082/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8097 40082/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-25 00:41:10.8097 40082/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8098 40082/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-25 00:41:10.8098 40082/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-25 00:41:10.8098 40082/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-25 00:41:10.8098 40082/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-25 00:41:10.8102 40082/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 40841, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 00:41:10.8103 40082/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 42011, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 00:41:12.1125 40082/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-25 00:41:15.1394 42467/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-25 00:41:15.1576 42470/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-25 00:41:15.1578 42470/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-25 00:41:15.1972 42470/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 42470
+[ N 2022-06-25 00:41:18.1190 42470/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[ N 2022-06-25 00:46:46.1091 42470/T3 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 42606, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 00:46:46.1422 42470/T3 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 42569, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:20:14.1745 42470/T3 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 48366, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:20:27.6713 42470/T3 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 48314, application /home/sriram/rails_app/proj1 (development)
+
+[ N 2022-06-25 01:25:51.9595 42470/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-25 01:25:51.9596 42470/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-25 01:25:51.9597 42470/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 42764, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:25:51.9601 42470/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9601 42470/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9602 42470/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9602 42470/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9602 42470/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9602 42470/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9602 42470/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9602 42470/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9603 42470/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-25 01:25:51.9603 42470/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-25 01:25:51.9603 42470/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-25 01:25:51.9603 42470/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-25 01:25:51.9603 42470/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-25 01:25:51.9604 42470/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-25 01:25:51.9604 42470/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-25 01:25:51.9604 42470/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-25 01:25:51.9604 42470/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9605 42470/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-25 01:25:51.9605 42470/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9605 42470/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9606 42470/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9606 42470/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-25 01:25:51.9606 42470/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-25 01:25:51.9606 42470/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-25 01:25:51.9609 42470/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-25 01:25:51.9610 42470/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-25 01:25:51.9613 42470/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 42764, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:25:53.3762 42470/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-25 01:26:04.2240 50464/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-25 01:26:04.2472 50467/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-25 01:26:04.2474 50467/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-25 01:26:04.2977 50467/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 50467
+[ N 2022-06-25 01:26:07.4709 50467/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-06-25 01:30:14.2960 50467/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-25 01:30:14.2962 50467/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-25 01:30:14.2970 50467/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 50567, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:30:14.2972 50467/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 50644, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:30:14.2974 50467/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2974 50467/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2974 50467/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2975 50467/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2975 50467/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2975 50467/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2974 50467/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2975 50467/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2974 50467/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2975 50467/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-25 01:30:14.2974 50467/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2976 50467/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-25 01:30:14.2976 50467/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-25 01:30:14.2976 50467/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-25 01:30:14.2976 50467/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-25 01:30:14.2976 50467/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-25 01:30:14.2977 50467/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-25 01:30:14.2975 50467/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-25 01:30:14.2975 50467/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-25 01:30:14.2977 50467/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2975 50467/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-25 01:30:14.2975 50467/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2977 50467/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-25 01:30:14.2977 50467/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-25 01:30:14.2978 50467/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-25 01:30:14.2978 50467/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-25 01:30:14.2982 50467/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 50567, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:30:14.2984 50467/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 50644, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:30:15.6226 50467/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-25 01:30:17.0305 51343/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-25 01:30:17.0571 51346/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-25 01:30:17.0573 51346/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-25 01:30:17.1051 51346/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 51346
+[ N 2022-06-25 01:30:19.9013 51346/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-06-25 01:34:56.2835 51346/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-25 01:34:56.2836 51346/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-25 01:34:56.2838 51346/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 51446, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:34:56.2840 51346/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 51524, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:34:56.2842 51346/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2842 51346/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2842 51346/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2842 51346/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2843 51346/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2843 51346/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-25 01:34:56.2842 51346/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2843 51346/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-25 01:34:56.2843 51346/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2842 51346/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2842 51346/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2844 51346/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-25 01:34:56.2844 51346/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-25 01:34:56.2844 51346/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-25 01:34:56.2842 51346/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2842 51346/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2845 51346/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-25 01:34:56.2843 51346/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-25 01:34:56.2845 51346/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-25 01:34:56.2845 51346/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-25 01:34:56.2845 51346/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-25 01:34:56.2844 51346/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-25 01:34:56.2846 51346/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2846 51346/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-25 01:34:56.2846 51346/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-25 01:34:56.2846 51346/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-25 01:34:56.2850 51346/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 51446, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:34:56.2851 51346/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 51524, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:34:57.5341 51346/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-25 01:34:59.3683 52584/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-25 01:34:59.3952 52587/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-25 01:34:59.3955 52587/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-25 01:34:59.4564 52587/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 52587
+[ N 2022-06-25 01:35:02.4155 52587/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-06-25 01:38:33.2247 52587/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-25 01:38:33.2248 52587/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-25 01:38:33.2249 52587/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 52704, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:38:33.2251 52587/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 52747, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:38:33.2253 52587/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2253 52587/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2253 52587/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2253 52587/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2254 52587/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-25 01:38:33.2254 52587/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-25 01:38:33.2254 52587/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2254 52587/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2254 52587/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2255 52587/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2255 52587/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2255 52587/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-25 01:38:33.2255 52587/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-25 01:38:33.2254 52587/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-25 01:38:33.2256 52587/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-25 01:38:33.2256 52587/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-25 01:38:33.2256 52587/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-25 01:38:33.2256 52587/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2256 52587/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2254 52587/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2256 52587/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-25 01:38:33.2254 52587/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-25 01:38:33.2257 52587/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-25 01:38:33.2257 52587/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-25 01:38:33.2257 52587/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-25 01:38:33.2257 52587/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-25 01:38:33.2260 52587/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 52704, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:38:33.2261 52587/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 52747, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:38:34.5234 52587/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-25 01:41:34.0385 53816/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-25 01:41:34.0681 53819/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-25 01:41:34.0684 53819/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-25 01:41:34.1479 53819/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 53819
+[ N 2022-06-25 01:41:37.0699 53819/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-06-25 01:45:34.1374 53819/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-25 01:45:34.1375 53819/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-25 01:45:34.1375 53819/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 53953, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:45:34.1378 53819/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 54025, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:45:34.1380 53819/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1380 53819/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1380 53819/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1380 53819/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1380 53819/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1380 53819/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1381 53819/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1382 53819/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1383 53819/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-25 01:45:34.1383 53819/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-25 01:45:34.1384 53819/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-25 01:45:34.1384 53819/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-25 01:45:34.1384 53819/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-25 01:45:34.1384 53819/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-25 01:45:34.1385 53819/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-25 01:45:34.1384 53819/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-25 01:45:34.1385 53819/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1385 53819/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1386 53819/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1386 53819/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1386 53819/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-25 01:45:34.1386 53819/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-25 01:45:34.1386 53819/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-25 01:45:34.1386 53819/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-25 01:45:34.1387 53819/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-25 01:45:34.1387 53819/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-25 01:45:34.1390 53819/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 53953, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:45:34.1392 53819/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 54025, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:45:36.5175 53819/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-25 01:45:37.0958 54649/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-25 01:45:37.1143 54652/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-25 01:45:37.1144 54652/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-25 01:45:37.1745 54652/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 54652
+[ N 2022-06-25 01:45:40.0680 54652/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[ N 2022-06-25 01:50:57.8414 54652/T3 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 54879, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:52:53.4607 54652/T3 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 54774, application /home/sriram/rails_app/proj1 (development)
+
+[ N 2022-06-25 01:56:47.5685 54652/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-25 01:56:47.5686 54652/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-25 01:56:47.5687 54652/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 54751, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:56:47.5689 54652/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5689 54652/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5690 54652/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5690 54652/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5690 54652/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5690 54652/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-25 01:56:47.5690 54652/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-25 01:56:47.5690 54652/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5691 54652/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5691 54652/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-25 01:56:47.5690 54652/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5689 54652/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5692 54652/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-25 01:56:47.5692 54652/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-25 01:56:47.5690 54652/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-25 01:56:47.5690 54652/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5690 54652/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5690 54652/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5690 54652/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-25 01:56:47.5693 54652/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-25 01:56:47.5693 54652/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-25 01:56:47.5693 54652/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-25 01:56:47.5693 54652/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-25 01:56:47.5693 54652/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-25 01:56:47.5693 54652/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-25 01:56:47.5694 54652/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-25 01:56:47.5698 54652/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 54751, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 01:56:48.9880 54652/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-25 01:58:23.0850 57287/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-25 01:58:23.1044 57290/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-25 01:58:23.1046 57290/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-25 01:58:23.1572 57290/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 57290
+[ N 2022-06-25 01:58:26.2357 57290/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-06-25 02:01:44.8688 57290/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-25 02:01:44.8689 57290/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-25 02:01:44.8690 57290/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 57405, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:01:44.8692 57290/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 57469, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:01:44.8694 57290/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 57660, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:01:44.8695 57290/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8695 57290/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8695 57290/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8696 57290/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8696 57290/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8696 57290/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8698 57290/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8706 57290/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-25 02:01:44.8706 57290/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-25 02:01:44.8706 57290/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-25 02:01:44.8706 57290/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-25 02:01:44.8707 57290/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-25 02:01:44.8707 57290/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-25 02:01:44.8706 57290/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8708 57290/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8708 57290/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-25 02:01:44.8708 57290/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8708 57290/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-25 02:01:44.8695 57290/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8708 57290/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-25 02:01:44.8708 57290/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8708 57290/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-25 02:01:44.8708 57290/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-25 02:01:44.8709 57290/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-25 02:01:44.8710 57290/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-25 02:01:44.8710 57290/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-25 02:01:44.8715 57290/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 57405, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:01:44.8716 57290/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 57469, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:01:44.8718 57290/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 57660, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:01:46.1533 57290/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-25 02:06:19.2060 58933/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-25 02:06:19.2354 58936/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-25 02:06:19.2357 58936/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-25 02:06:19.2897 58936/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 58936
+[ N 2022-06-25 02:06:22.1916 58936/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-06-25 02:08:27.0772 58936/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-25 02:08:27.0773 58936/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-25 02:08:27.0773 58936/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 59035, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:08:27.0776 58936/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 59121, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:08:27.0777 58936/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0777 58936/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0777 58936/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0778 58936/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0778 58936/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0778 58936/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0778 58936/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0778 58936/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-25 02:08:27.0778 58936/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-25 02:08:27.0778 58936/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0777 58936/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0779 58936/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-25 02:08:27.0779 58936/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-25 02:08:27.0779 58936/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0779 58936/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-25 02:08:27.0779 58936/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-25 02:08:27.0779 58936/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-25 02:08:27.0778 58936/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-25 02:08:27.0779 58936/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0780 58936/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-25 02:08:27.0780 58936/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0778 58936/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-25 02:08:27.0780 58936/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-25 02:08:27.0780 58936/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-25 02:08:27.0781 58936/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-25 02:08:27.0781 58936/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-25 02:08:27.0784 58936/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 59035, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:08:27.0787 58936/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 59121, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:08:28.3833 58936/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-25 02:08:31.6782 59531/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-25 02:08:31.7063 59534/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-25 02:08:31.7065 59534/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-25 02:08:31.7612 59534/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 59534
+[ N 2022-06-25 02:08:34.6985 59534/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-06-25 02:12:22.9472 59534/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-25 02:12:22.9473 59534/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-25 02:12:22.9473 59534/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 59633, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:12:22.9475 59534/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 59688, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:12:22.9476 59534/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9477 59534/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9477 59534/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9477 59534/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9477 59534/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-25 02:12:22.9477 59534/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9477 59534/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-25 02:12:22.9477 59534/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9477 59534/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9478 59534/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9477 59534/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9478 59534/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-25 02:12:22.9477 59534/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-25 02:12:22.9478 59534/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-25 02:12:22.9478 59534/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9478 59534/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-25 02:12:22.9478 59534/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-25 02:12:22.9480 59534/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9483 59534/Tx Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9485 59534/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-25 02:12:22.9486 59534/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-25 02:12:22.9486 59534/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-25 02:12:22.9486 59534/Tx Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-25 02:12:22.9487 59534/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-25 02:12:22.9477 59534/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-25 02:12:22.9487 59534/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-25 02:12:22.9488 59534/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 59633, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:12:22.9490 59534/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 59688, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:12:24.2146 59534/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-06-25 02:12:33.3605 60530/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-06-25 02:12:33.3867 60540/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-06-25 02:12:33.3870 60540/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-06-25 02:12:33.4708 60540/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 60540
+[ N 2022-06-25 02:12:36.3653 60540/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[ N 2022-06-25 02:18:29.9974 60540/T4 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 60796, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:18:30.0303 60540/T4 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 60653, application /home/sriram/rails_app/proj1 (development)
+
+[ N 2022-06-25 02:19:18.7650 60540/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-06-25 02:19:18.7651 60540/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-06-25 02:19:18.7653 60540/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 60865, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:19:18.7655 60540/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7655 60540/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7656 60540/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7656 60540/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7656 60540/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7656 60540/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-06-25 02:19:18.7656 60540/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7656 60540/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-06-25 02:19:18.7656 60540/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7657 60540/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-06-25 02:19:18.7657 60540/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-06-25 02:19:18.7657 60540/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-06-25 02:19:18.7657 60540/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-06-25 02:19:18.7657 60540/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-06-25 02:19:18.7657 60540/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7655 60540/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7658 60540/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-06-25 02:19:18.7658 60540/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-06-25 02:19:18.7658 60540/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7658 60540/Tj Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7658 60540/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7659 60540/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-06-25 02:19:18.7659 60540/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-06-25 02:19:18.7659 60540/Tj Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-06-25 02:19:18.7660 60540/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-06-25 02:19:18.7660 60540/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-06-25 02:19:18.7664 60540/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 60865, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-06-25 02:19:20.0361 60540/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-07-03 21:42:50.5496 51518/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-07-03 21:42:50.5679 51521/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-07-03 21:42:50.5680 51521/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-07-03 21:42:50.6249 51521/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 51521
+App 51579 output: /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/net/protocol.rb:66: warning: already initialized constant Net::ProtocRetryError
+App 51579 output: /usr/local/rvm/gems/ruby-2.7.0/gems/net-protocol-0.1.3/lib/net/protocol.rb:68: warning: previous definition of ProtocRetryError was here
+App 51579 output: /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/net/protocol.rb:206: warning: already initialized constant Net::BufferedIO::BUFSIZE
+App 51579 output: /usr/local/rvm/gems/ruby-2.7.0/gems/net-protocol-0.1.3/lib/net/protocol.rb:208: warning: previous definition of BUFSIZE was here
+App 51579 output: /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/net/protocol.rb:503: warning: already initialized constant Net::NetPrivate::Socket
+App 51579 output: /usr/local/rvm/gems/ruby-2.7.0/gems/net-protocol-0.1.3/lib/net/protocol.rb:504: warning: previous definition of Socket was here
+[ N 2022-07-03 21:42:54.9140 51521/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-07-03 21:43:09.1878 51521/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-07-03 21:43:09.1879 51521/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-07-03 21:43:09.1879 51521/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 51616, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-07-03 21:43:09.1881 51521/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1881 51521/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1881 51521/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-07-03 21:43:09.1881 51521/Tc Ser/Server.h:901 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1882 51521/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-07-03 21:43:09.1882 51521/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2022-07-03 21:43:09.1882 51521/Ti Ser/Server.h:901 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1882 51521/Tm Ser/Server.h:901 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1882 51521/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2022-07-03 21:43:09.1882 51521/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2022-07-03 21:43:09.1882 51521/Tg Ser/Server.h:901 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1882 51521/Tq Ser/Server.h:901 ]: [ServerThr.10] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1882 51521/Te Ser/Server.h:901 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1882 51521/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2022-07-03 21:43:09.1883 51521/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2022-07-03 21:43:09.1883 51521/Tq Ser/Server.h:558 ]: [ServerThr.10] Shutdown finished
+[ N 2022-07-03 21:43:09.1883 51521/Ts Ser/Server.h:901 ]: [ServerThr.11] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1883 51521/Tk Ser/Server.h:901 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1883 51521/Ts Ser/Server.h:558 ]: [ServerThr.11] Shutdown finished
+[ N 2022-07-03 21:43:09.1883 51521/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2022-07-03 21:43:09.1884 51521/Tu Ser/Server.h:901 ]: [ServerThr.12] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1884 51521/To Ser/Server.h:901 ]: [ServerThr.9] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1884 51521/Tu Ser/Server.h:558 ]: [ServerThr.12] Shutdown finished
+[ N 2022-07-03 21:43:09.1884 51521/Tw Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-07-03 21:43:09.1884 51521/To Ser/Server.h:558 ]: [ServerThr.9] Shutdown finished
+[ N 2022-07-03 21:43:09.1885 51521/Tw Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-07-03 21:43:09.1888 51521/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 51616, application /home/sriram/rails_app/proj1 (development)
+[ N 2022-07-03 21:43:11.2575 51521/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished

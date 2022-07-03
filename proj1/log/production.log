@@ -1,0 +1,53 @@
+I, [2022-06-18T16:31:45.144939 #75680]  INFO -- : [03ccd752-aa0a-4fb9-a544-a1e1f4be4793] Started GET "/books" for 127.0.0.1 at 2022-06-18 16:31:45 +0530
+I, [2022-06-18T16:31:45.146755 #75680]  INFO -- : [03ccd752-aa0a-4fb9-a544-a1e1f4be4793] Processing by BooksController#index as HTML
+I, [2022-06-18T16:31:45.156080 #75680]  INFO -- : [03ccd752-aa0a-4fb9-a544-a1e1f4be4793] Completed 500 Internal Server Error in 9ms (Allocations: 2805)
+F, [2022-06-18T16:31:45.156699 #75680] FATAL -- : [03ccd752-aa0a-4fb9-a544-a1e1f4be4793]   
+[03ccd752-aa0a-4fb9-a544-a1e1f4be4793] NameError (undefined local variable or method `console' for #<BooksController:0x0055f259d63d40>):
+[03ccd752-aa0a-4fb9-a544-a1e1f4be4793]   
+[03ccd752-aa0a-4fb9-a544-a1e1f4be4793] app/controllers/books_controller.rb:5:in `index'
+I, [2022-06-18T16:33:05.679719 #75680]  INFO -- : [42fe4089-d195-49c0-8eb4-dd053ff1982b] Started GET "/books" for 127.0.0.1 at 2022-06-18 16:33:05 +0530
+I, [2022-06-18T16:33:05.680513 #75680]  INFO -- : [42fe4089-d195-49c0-8eb4-dd053ff1982b] Processing by BooksController#index as HTML
+I, [2022-06-18T16:33:05.688692 #75680]  INFO -- : [42fe4089-d195-49c0-8eb4-dd053ff1982b] Completed 500 Internal Server Error in 8ms (Allocations: 2571)
+F, [2022-06-18T16:33:05.689033 #75680] FATAL -- : [42fe4089-d195-49c0-8eb4-dd053ff1982b]   
+[42fe4089-d195-49c0-8eb4-dd053ff1982b] NameError (undefined local variable or method `console' for #<BooksController:0x0055f25a0dc1e8>):
+[42fe4089-d195-49c0-8eb4-dd053ff1982b]   
+[42fe4089-d195-49c0-8eb4-dd053ff1982b] app/controllers/books_controller.rb:5:in `index'
+I, [2022-06-18T16:33:09.826159 #75680]  INFO -- : [cf1c62a5-c101-4959-a2de-77effdfb912b] Started GET "/" for 127.0.0.1 at 2022-06-18 16:33:09 +0530
+F, [2022-06-18T16:33:09.827391 #75680] FATAL -- : [cf1c62a5-c101-4959-a2de-77effdfb912b]   
+[cf1c62a5-c101-4959-a2de-77effdfb912b] ActionController::RoutingError (No route matches [GET] "/"):
+[cf1c62a5-c101-4959-a2de-77effdfb912b]   
+I, [2022-06-18T16:33:18.390457 #75680]  INFO -- : [e40caccd-f785-4ef9-8895-b520544280e4] Started GET "/books" for 127.0.0.1 at 2022-06-18 16:33:18 +0530
+I, [2022-06-18T16:33:18.391791 #75680]  INFO -- : [e40caccd-f785-4ef9-8895-b520544280e4] Processing by BooksController#index as HTML
+I, [2022-06-18T16:33:18.402935 #75680]  INFO -- : [e40caccd-f785-4ef9-8895-b520544280e4] Completed 500 Internal Server Error in 11ms (Allocations: 2571)
+F, [2022-06-18T16:33:18.403679 #75680] FATAL -- : [e40caccd-f785-4ef9-8895-b520544280e4]   
+[e40caccd-f785-4ef9-8895-b520544280e4] NameError (undefined local variable or method `console' for #<BooksController:0x0055f25a27dc40>):
+[e40caccd-f785-4ef9-8895-b520544280e4]   
+[e40caccd-f785-4ef9-8895-b520544280e4] app/controllers/books_controller.rb:5:in `index'
+I, [2022-06-18T16:34:38.722695 #75680]  INFO -- : [92f50fbb-4275-4203-b732-757f29ebff4d] Started GET "/books" for 127.0.0.1 at 2022-06-18 16:34:38 +0530
+I, [2022-06-18T16:34:38.723855 #75680]  INFO -- : [92f50fbb-4275-4203-b732-757f29ebff4d] Processing by BooksController#index as HTML
+I, [2022-06-18T16:34:38.735886 #75680]  INFO -- : [92f50fbb-4275-4203-b732-757f29ebff4d] Completed 500 Internal Server Error in 12ms (Allocations: 2571)
+F, [2022-06-18T16:34:38.736636 #75680] FATAL -- : [92f50fbb-4275-4203-b732-757f29ebff4d]   
+[92f50fbb-4275-4203-b732-757f29ebff4d] NameError (undefined local variable or method `console' for #<BooksController:0x0055f25a336b00>):
+[92f50fbb-4275-4203-b732-757f29ebff4d]   
+[92f50fbb-4275-4203-b732-757f29ebff4d] app/controllers/books_controller.rb:5:in `index'
+I, [2022-06-18T16:34:39.659339 #75680]  INFO -- : [9a56fd8c-99a7-4e3d-af6a-62b0c54dca75] Started GET "/books" for 127.0.0.1 at 2022-06-18 16:34:39 +0530
+I, [2022-06-18T16:34:39.661038 #75680]  INFO -- : [9a56fd8c-99a7-4e3d-af6a-62b0c54dca75] Processing by BooksController#index as HTML
+I, [2022-06-18T16:34:39.674655 #75680]  INFO -- : [9a56fd8c-99a7-4e3d-af6a-62b0c54dca75] Completed 500 Internal Server Error in 13ms (Allocations: 2571)
+F, [2022-06-18T16:34:39.675491 #75680] FATAL -- : [9a56fd8c-99a7-4e3d-af6a-62b0c54dca75]   
+[9a56fd8c-99a7-4e3d-af6a-62b0c54dca75] NameError (undefined local variable or method `console' for #<BooksController:0x0055f25a6168c0>):
+[9a56fd8c-99a7-4e3d-af6a-62b0c54dca75]   
+[9a56fd8c-99a7-4e3d-af6a-62b0c54dca75] app/controllers/books_controller.rb:5:in `index'
+I, [2022-06-18T16:34:39.874427 #75680]  INFO -- : [5a693bdc-34d3-43d4-a19f-816bd423cd24] Started GET "/books" for 127.0.0.1 at 2022-06-18 16:34:39 +0530
+I, [2022-06-18T16:34:39.876544 #75680]  INFO -- : [5a693bdc-34d3-43d4-a19f-816bd423cd24] Processing by BooksController#index as HTML
+I, [2022-06-18T16:34:39.898952 #75680]  INFO -- : [5a693bdc-34d3-43d4-a19f-816bd423cd24] Completed 500 Internal Server Error in 22ms (Allocations: 2571)
+F, [2022-06-18T16:34:39.900191 #75680] FATAL -- : [5a693bdc-34d3-43d4-a19f-816bd423cd24]   
+[5a693bdc-34d3-43d4-a19f-816bd423cd24] NameError (undefined local variable or method `console' for #<BooksController:0x0055f25a94c788>):
+[5a693bdc-34d3-43d4-a19f-816bd423cd24]   
+[5a693bdc-34d3-43d4-a19f-816bd423cd24] app/controllers/books_controller.rb:5:in `index'
+I, [2022-06-18T16:34:40.103919 #75680]  INFO -- : [d5741645-0fb0-443f-b534-8ced288fc1d6] Started GET "/books" for 127.0.0.1 at 2022-06-18 16:34:40 +0530
+I, [2022-06-18T16:34:40.106075 #75680]  INFO -- : [d5741645-0fb0-443f-b534-8ced288fc1d6] Processing by BooksController#index as HTML
+I, [2022-06-18T16:34:40.128232 #75680]  INFO -- : [d5741645-0fb0-443f-b534-8ced288fc1d6] Completed 500 Internal Server Error in 22ms (Allocations: 2571)
+F, [2022-06-18T16:34:40.129584 #75680] FATAL -- : [d5741645-0fb0-443f-b534-8ced288fc1d6]   
+[d5741645-0fb0-443f-b534-8ced288fc1d6] NameError (undefined local variable or method `console' for #<BooksController:0x0055f25aaf2060>):
+[d5741645-0fb0-443f-b534-8ced288fc1d6]   
+[d5741645-0fb0-443f-b534-8ced288fc1d6] app/controllers/books_controller.rb:5:in `index'

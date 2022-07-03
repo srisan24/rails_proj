@@ -1,0 +1,8 @@
+notable gems,
+
+devise
+warden
+redis
+decent_exposure
+dalli
+sidekick
