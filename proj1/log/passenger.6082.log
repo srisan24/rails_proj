@@ -1,0 +1,6 @@
+2022/06/19 13:08:44 [emerg] 11954#0: bind() to 127.0.0.1:6082 failed (98: Address already in use)
+2022/06/19 13:08:44 [emerg] 11954#0: bind() to 127.0.0.1:6082 failed (98: Address already in use)
+2022/06/19 13:08:44 [emerg] 11954#0: bind() to 127.0.0.1:6082 failed (98: Address already in use)
+2022/06/19 13:08:44 [emerg] 11954#0: bind() to 127.0.0.1:6082 failed (98: Address already in use)
+2022/06/19 13:08:44 [emerg] 11954#0: bind() to 127.0.0.1:6082 failed (98: Address already in use)
+2022/06/19 13:08:44 [emerg] 11954#0: still could not bind()

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Proj1</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_link_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+  </head>
+
+  <body>
+    <button class="log-in">Log In </button>
+    <button class="log-out">Log Out </button>
+    <%= yield %>
+     <script type="text/javascript">
+        $(".log-in").click(function(){
+          window.location.href = "/sign_in"
+        });
+
+        $(".log-out").click(function(){
+          window.location.href = "/sign_out"
+        });
+    </script>
+  </body>
+</html>
